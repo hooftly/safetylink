@@ -38,7 +38,7 @@
 		});
 
 	// Menu.
-		$('<a href="#navPanel" class="navPanelToggle">Menu</a>')
+	/*	$('<a href="#navPanel" class="navPanelToggle">Menu</a>')
 			.appendTo($header);
 
 		$(	'<div id="navPanel">' +
@@ -57,7 +57,7 @@
 					target: $body,
 					visibleClass: 'is-navPanel-visible',
 					side: 'right'
-				});
+				}); */
 
 	// Scrolly.
 		$('.scrolly').scrolly({
