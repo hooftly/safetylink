@@ -4327,3 +4327,19 @@ input, select, textarea {
 			padding-top: 0px;
 		}
 	}
+
+	/* Set up the parent container */
+.logo-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 40vh;          /* Full viewport height */
+}
+
+/* Style the image */
+.logo {
+    max-width: 1000px;    /* Make it responsive */
+    max-height: 100%;  /* Set the maximum height */
+    width: auto;        /* Maintain aspect ratio */
+    height: auto;       /* Maintain aspect ratio */
+}
